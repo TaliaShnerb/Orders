@@ -1,0 +1,167 @@
+  td,th,span,li{
+     /* font-family: Arial, Helvetica, sans-serif;*/
+     font-family: 'Rubik', sans-serif;
+  }
+  .k-pager-numbers .k-link{
+      border-radius: 0;
+  }
+  .k-pager-nav {
+border-radius: 0;
+  }
+  .k-pager-wrap .k-link.k-state-selected {
+color: #fff;
+background-color: #a4a19e;
+border-color: #a4a19e;
+}
+
+/*tabs style*/
+/* Style the tab */
+.tab {
+overflow: hidden;
+border-bottom: 2px solid;
+margin-top: 70px;
+color: #1f5160;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+background-color: inherit;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
+font-size: 17px;
+color:#1f5160;
+font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+/* .tab button:hover {
+background-color: #ddd;
+} */
+
+/* Create an active/current tablink class */
+.tab button.active {
+background-color: white;
+/* #8bcee5; */
+}
+
+/* Style the tab content */
+.tabcontent { 
+padding: 6px 12px;
+
+border-top: none;
+}
+
+#usersTitle{
+ 
+ /* margin-left:20px; */
+ color: #1f5160;
+				font-size: 45px;
+				font-family: 'Rubik', sans-serif;
+        text-align: inherit;
+}
+
+  body{
+    background-color: #c4e4ed;
+  }
+
+  #loginDiv{
+    width:90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  /* table */
+  #usersGrid{
+    background-color:white;
+    border: none;
+
+  }
+
+  .k-pager-wrap {
+    
+    border-color: #1f5160;
+    color: #313131;
+    background-color: white;
+    background-position: 50% 50%;
+  }
+  .k-pager-wrap .k-link.k-state-disabled {
+    color: #2e2e2e;
+    border: none;
+}
+ td{
+    text-align: center;
+    color:#993333;
+    font-weight:bold;
+  }
+ a{
+  text-align: center;  
+  font-weight:bold;
+   color:#1f5160 !important;
+ }
+  .k-pager-info{
+    color:#1f5160 !important;
+    display: none;
+  }
+  
+
+  .login-form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 130px;
+
+  }
+   h1 {
+    text-align: center;
+    color: #1f5160;
+    font-size: 75px;
+    padding: 90px 0 20px 0;
+    font-family: 'Rubik', sans-serif;
+  }
+  .login-form input[type="password"],
+  .login-form input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    box-sizing:border-box;
+    font-family: 'Rubik', sans-serif;
+  }
+  .login-form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #1f5160;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+  }
+  .errorSpan{
+      display: none;
+      color: red;
+      font-family: 'Rubik', sans-serif;
+      font-size: 14px;
+  }
+  
+  #loginImg{
+      height: 100%;
+      opacity: 0.8;
+      width: 100%;
+      position: fixed;
+      opacity: 0.6;
+  }
+
+  html{overflow: hidden;}
+
+  #loginBody{
+    background-color: #cbebf2;
+  }
+
